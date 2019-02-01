@@ -1,0 +1,32 @@
+ /*
+ // RECTANGLE
+ c.fillStyle = 'rgba(255,0,0,0.4)';
+ c.fillRect(100,100,100,100);
+ c.fillStyle = 'rgba(0,255,0,0.3)';
+ c.fillRect(400,100,100,100);
+ 
+ c.fillStyle = 'rgba(0,0,255,0.4)';
+ c.fillRect(600,100,100,100);
+ 
+ console.log(canvas);
+ 
+ //LINE
+ 
+ c.beginPath();
+ c.moveTo(50,300); //moveTO is use to identify the staring point in the canvas lineHeight
+ c.lineTo(300,100); // its the to point to reach the end point
+ c.lineTo(400,300);
+ c.strokeStyle = "#fa34a3"; // specifies the colour of the line
+ c.stroke(); //use to diaplay the line i.e; to make line visible
+ 
+ //circle
+	 for (var i = 1; i < 50; i++ )
+	 {
+		 var x = Math.random() * window.innerWidth;
+		 var y = Math.random() * window.innerHeight;
+		c.beginPath();
+		c.arc(x,y,30,0,Math.PI * 2,false);
+	 c.strokeStyle = "blue";
+	 c.stroke();
+	 }
+	*/
